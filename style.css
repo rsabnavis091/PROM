@@ -4,13 +4,18 @@
     
 }
 body { 
-    display: flex;
-    text-align:center;
     background-color: #6f2dbd;
-    align-items:center;
 
 
 }
 .imm {
     margin:auto;
+}
+#flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
