@@ -20,6 +20,21 @@
 
         </table>
 
+        <hr>
+        Prom?:<br>
+        <form method = 'post' id = 'poop'>
+            <input type = 'radio' name = 'choice' value = 'y'>YES!<br>
+            <input type = 'radio' name = 'choice' value ='n'>NO<br>
+            <button type = 'submit'>SEND IT</button>
+
+
+            
+           
+            
+
+
+        </form>
+
 
     
 
@@ -29,7 +44,20 @@
 
 
 
-        <script></script>
+        <script>
+            const form = document.getElementById('poop')
+            const val = form.elements['choice']
+            form.addEventListener('submit', (event) => {
+                if(val == 'y') {
+
+                }
+                if(val == 'n') {
+                    
+                }
+            })
+
+
+        </script>
 
     </body>
 
