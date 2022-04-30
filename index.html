@@ -34,6 +34,12 @@
 
 
         </form>
+        <div id = 'booty'>
+            
+
+
+
+        </div>
 
 
 
@@ -48,12 +54,13 @@
         <script>
             const form = document.getElementById('poop')
             const val = form.elements['choice']
+            const welly = document.getElementById('booty')
             form.addEventListener('submit', (event) => {
                 if(val == 'y') {
-                    document.write("YUUHHHHHH")
+                    welly.innerHTML("<h1>YUHHHH</h1>")
                 }
                 if(val == 'n') {
-                    document.write("crying rn...")
+                    welly.innerHTML("<h1>crying rn...</h1>")
                 }
             })
 
