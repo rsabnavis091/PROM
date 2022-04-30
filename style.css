@@ -5,11 +5,13 @@
 }
 body { 
     background-color: #6f2dbd;
+    text-align:center;
 
 
 }
 .imm {
     margin:auto;
+    padding: 5px;
 }
 #flex-container {
     padding: 0;
