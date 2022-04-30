@@ -7,6 +7,9 @@ body {
     display: flex;
     text-align:center;
     background-color: #6f2dbd;
+    align-items:center;
 
 
+}
+.imm {
 }
